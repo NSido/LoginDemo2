@@ -32,7 +32,7 @@ public class CalendarActivity extends AppCompatActivity {
         compactCalendar = (CompactCalendarView) findViewById(R.id.compactcalendar_view);
         compactCalendar.setUseThreeLetterAbbreviation(true);
 
-        //Set an event for Teachers' Professional Day 2016 which is 21st of October
+        //Set an event for Teachers' Professional Day 2016 which is 21st of October- will change this
 
         Event ev1 = new Event(Color.RED, 1477040400000L, "Teachers' Professional Day");
         compactCalendar.addEvent(ev1);
